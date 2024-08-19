@@ -1,4 +1,4 @@
-body {
+﻿body {
     font-family: Raleway, 'Times New Roman';
     margin: 0;
     padding: 0;
@@ -78,6 +78,14 @@ body {
         color: #ffffff
     }
 
+.post input {
+        width: 97%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #e20d0d;
+        border-radius: 5px;
+    }
+
 .post-header {
     display: flex;
     align-items: center;
@@ -108,6 +116,11 @@ body {
     margin: 10px 0;
 }
 
+.post label {
+    color: #fff
+}
+
+
 .post img {
     width: 100%;
     max-width: 500px;
@@ -129,6 +142,16 @@ body {
         cursor: pointer;
     }
 
+.post button {
+    width: 98%;
+    padding: 10px;
+    background-color: #e20d0d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .sidebar {
     flex: 1;
     background-color: #262525;
@@ -138,9 +161,8 @@ body {
 }
 
     .sidebar button {
-
-         width: 98%;
-         padding: 10px;
+        width: 98%;
+        padding: 10px;
         background-color: #e20d0d;
         color: #fff;
         border: none;
@@ -150,25 +172,17 @@ body {
 
     .sidebar p {
         color: #fff
-
     }
 
     .sidebar h3 {
         color: #fff
-
     }
 
 .login-form, .profile, .settings {
     margin-bottom: 20px;
 }
 
-    .login-form input {
-        width: 90%;
-        padding: 10px;
-        margin: 5px 0;
-        border: 1px solid #e20d0d;
-        border-radius: 5px;
-    }
+    
 
     .login-form button {
         width: 98%;
