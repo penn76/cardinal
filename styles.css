@@ -1,0 +1,216 @@
+body {
+    font-family: Raleway, 'Times New Roman';
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #e20d0d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #262525;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #e20d0d;
+}
+
+    .navbar ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 15px;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+        .navbar a.active {
+            color: #fff;
+            background-color: #e20d0d;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+.main-content {
+    display: flex;
+    padding: 20px;
+}
+
+.content {
+    flex: 3;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.post {
+    background-color: #262525;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .post p2 {
+        font-size: 80%;
+        color: #ffffff
+    }
+
+    .post p {
+        color: #ffffff
+    }
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+    .post-header h3 {
+        margin: 0;
+        color: #e20d0d;
+        flex-grow: 1;
+    }
+
+.follower-count {
+    margin-right: 10px;
+    color: #666;
+}
+
+.follow-btn {
+    padding: 5px 10px;
+    background-color: #e20d0d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post p {
+    margin: 10px 0;
+}
+
+.post img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.post-actions {
+    display: flex;
+    gap: 10px;
+}
+
+    .post-actions button {
+        background-color: #e20d0d;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+.sidebar {
+    flex: 1;
+    background-color: #262525;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    .sidebar button {
+
+         width: 98%;
+         padding: 10px;
+        background-color: #e20d0d;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .sidebar p {
+        color: #fff
+
+    }
+
+    .sidebar h3 {
+        color: #fff
+
+    }
+
+.login-form, .profile, .settings {
+    margin-bottom: 20px;
+}
+
+    .login-form input {
+        width: 90%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #e20d0d;
+        border-radius: 5px;
+    }
+
+    .login-form button {
+        width: 98%;
+        padding: 10px;
+        background-color: #e20d0d;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .profile img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .profile p {
+        margin: 5px 0;
+    }
+
+    .settings ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .settings a {
+        text-decoration: none;
+        color: #e20d0d;
+        display: block;
+        padding: 10px 0;
+    }
+
+        .settings a:hover {
+            text-decoration: underline;
+        }
+
+.footer {
+    background-color: #e20d0d;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
